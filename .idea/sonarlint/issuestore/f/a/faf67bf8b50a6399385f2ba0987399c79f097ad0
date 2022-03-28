@@ -1,0 +1,6 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÄÈ§8ˆ˜Úû/
+f
+java:S3973"IUse indentation to denote the code conditionally executed by this "else".(ÔÍØ8ÍÇÚû/
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(àø8ÍÇÚû/

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Harver">
+    <test name="UK App">
+        <classes>
+            <class name="TestFlow">
+                <methods>
+                    <include name="verifyDropDown"></include>
+                    <include name="verifyAuth"></include>
+                    <include name="verifyFileUp"></include>
+                    <include name="verifyFrames"></include>
+                    <include name="verifyWindow"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
+

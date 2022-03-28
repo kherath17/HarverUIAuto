@@ -1,0 +1,26 @@
+{
+
+  "landPagebasicAuth": "//li/*[contains(text(),\"Basic Auth\")]",
+  "username": "admin",
+  "password": "admin",
+
+  "landPageDropD": "//li/*[contains(text(),\"Dropdown\")]",
+  "dropDEle": "//select[@id='dropdown']",
+  "selectedDropD": "//option[@value='2'][@selected=\"selected\"]",
+
+  "SampleFile": "C:\\Users\\kherath\\Desktop\\GapStars\\Ui Automation\\src\\main\\resources\\UploadFiles\\Test.txt",
+  "landPageFileUp": "//li/*[contains(text(),\"File Upload\")]",
+  "fileupBtn":"//input[@id='file-upload']",
+  "uploadBtn":"//input[@id='file-submit']",
+  "actualText":"//h3[contains(text(),'File Uploaded')]",
+
+  "iFrameId": "mce_0_ifr",
+  "textAreaIfr":"//body[@id='tinymce']" ,
+  "landPageFrames":"//li/*[contains(text(),\"Frames\")]" ,
+  "landPageIframes":"//li/*[contains(text(),'iFrame')]",
+  "inputText": "Gapstars to the Moon",
+
+  "landPageWindows": "//li/*[contains(text(),\"Multiple Windows\")]",
+  "newWindow": "//div[@class='example']/*[contains(text(),'Click Here')]"
+
+}
